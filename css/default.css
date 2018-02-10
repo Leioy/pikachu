@@ -1,0 +1,39 @@
+* {margin: 0;padding: 0;box-sizing:border-box;}
+*::before,*::after {box-sizing:border-box;}
+html,body {
+  height: 90%;
+  font-size: 13px;
+}
+img.shock-left {
+  display: none;
+}
+img.shock-right {
+  display: none;
+}
+#code {
+  overflow: auto;
+  height: 100%;
+}
+.token.selector {
+  color: black;
+  }
+  .token.property {
+    color: black;
+  }
+  .token.punctuation {
+    color: black;
+  }
+  .actions {
+    position: absolute;
+    right: 0;
+    top: 11px;
+    display: flex;
+    flex-direction: column;
+  }
+  .actions > button {
+    margin: 10px;
+    background: #ddd;
+    padding: 8px 10px;
+    border: none;
+    cursor: pointer;
+  }
